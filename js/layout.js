@@ -10,12 +10,10 @@ $(document).ready(function(){
             $(this).next('p').css('color','#fff');
             $(this).parent().find('.poptxt').fadeIn('fast');
         }else{
-            $('.theme').css({'background':'rgba(0,0,0,.8)'});
-            $('.theme .themeImgbox').css('filter','brightness(20%)');
-            $(this).css('filter','brightness(100%)');
-            $(this).next('p').css('color','#fff');
-            $('.poptxt').find('p').css({'text-shadow':'none','color':'#333'});
-            $(this).parent().find('.poptxt').find('p').css({'text-shadow':'none','color':'#fff'});
+            $('.theme').css({'background':'rgba(255,255,255,.8)'});
+            $('.theme .themeImgbox').css('filter','brightness(100%)');
+            $(this).next('p').css('color','#333');
+            $(this).parent().find('.poptxt').find('p').css({'color':'#333'});
         }
     }, function(){
         if(scSize > 1024){

@@ -789,6 +789,7 @@ body.dark-mode {
     #content section.theme ul li:nth-of-type(9){
         display: none;
     }
+    #content section.theme ul li .themeImgbox img:hover{transform: scale(1);}
     #content section.theme ul li .poptxt{
         width: auto;
         position: static;
